@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'blacksansblack';
+    src: url(./fonts/blacksansblack.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'blacksanscon';
+    src: url(./fonts/blacksanscon.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'blacksans';
+    src: url(./fonts/blacksans.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'blacksansbold';
+    src: url(./fonts/blacksansbold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'blacksans';
+    /* border: 1px solid red; */
+
+}
+
+.terra {
+    height: 23.8em;
+    position: absolute;
+    left: 3%;
+    top: 5%;
+}
+
+.span1 {
+    font-family: 'blacksansblack';
+}
+
+.vector {
+    position: absolute;
+    bottom: 84%;
+    height: 2em;
+    left: 1%;
+    z-index: 1;
+}
+
+.story1 {
+    height: 9.43em;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+.story2 {
+    height: 9.43em;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+.story3 {
+    height: 9.43em;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+.logo2 {
+    height: 2em;
+    margin-bottom: 11.5em;
+}
+
+.apple {
+
+    width: 6.4em;
+    margin-bottom: 0.7em;
+}
+
+.google {
+    width: 6.4em;
+}
+
+@media (max-width: 768px) {
+    .terra1 {
+     
+        width: 100%;
+        padding-top: 9em;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+
+    }
+
+    .vector {
+        top: 12%;
+        left: 3%;
+        height: 1.7em;
+
+    }
+
+    .story1 {
+        height: 10.95em;
+    }
+    .story2 {
+        height: 10.95em;
+    }
+    .story3 {
+        height: 10.95em;
+    }
+
+
+}
