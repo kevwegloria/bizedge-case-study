@@ -39,14 +39,14 @@ export default function Section1() {
                     <Box
                         sx={{
                             position: 'absolute',
-                            left: '10%',
-                            top: '20%',
+                            left: '35%',
+                            top: '45%',
+                          
                             transform: 'translate(-10%, -20%)',
                             '@media (max-width: 768px)': {
                                 top: '130%',
                                 left: '50%',
                                 transform: 'translate(-50%, 0)',
-                           
                                 width: '100%',
                                 display: 'flex',
                                 alignItems: 'center',
@@ -65,10 +65,10 @@ export default function Section1() {
                                     fontFamily: 'blacksansblack',
                                     textAlign: 'center',
                                     width: '12em',
-                                 
-                                
-                                   
-                                    
+
+
+
+
                                 }
                             }}>Why TerraKulture switched to BizEdge</Typography>
                         <Typography
@@ -90,8 +90,8 @@ export default function Section1() {
                                 width: '90%',
                                 textAlign: 'center',
                                 display: 'block',
-                              
-                                
+
+
                             }
                         }}>Do bookkeeping the modern way. Save time, Reduce paperwork, Remove spreadsheets. Manage your finances, easily and protect your data.
                         </Typography>
@@ -118,14 +118,14 @@ export default function Section1() {
                                 src={terra}
                                 alt="terra"
                                 className="terra"
-                                style={{ width: '100%', height: 'auto' }}
+                                style={{ width: '97%', height: 'auto' }}
                             />
                         </Box>
                     </Box>
                 </Box>
                 <Box sx={{
                     borderRadius: 'none',
-                  
+
                     display: 'none',
                     '@media (max-width: 768px)': {
                         display: 'block',
